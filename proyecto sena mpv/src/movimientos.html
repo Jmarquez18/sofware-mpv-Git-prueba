@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Movimiento de Ingreso y Salida</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-blue-100 min-h-screen flex items-center justify-center p-4">
+  <div class="bg-white p-6 bg-blue-200 rounded shadow-md max-w-md w-full text-center">
+    <h1 class="text-2xl font-semibold mb-4">Movimiento de Ingreso y Salida</h1>
+    <div class="mb-4">
+      <label for="fechaEntrada" class="block text-sm font-semibold text-gray-600 mb-2">Fecha Inicial:</label>
+      <input type="date" id="fechaEntrada" name="fechaEntrada" class="w-full border border-gray-300 p-2 rounded mb-4">
+
+      <label for="fechaSalida" class="block text-sm font-semibold text-gray-600 mb-2">Fecha Final:</label>
+      <input type="date" id="fechaSalida" name="fechaSalida" class="w-full border border-gray-300 p-2 rounded mb-4">
+
+      <div class="flex justify-between">
+        <button class="bg-blue-500 hover:bg-blue-800 text-white font-semibold py-2 px-4 rounded w-1/2 mr-2">Buscar Entrada</button>
+        <button class="bg-blue-500 hover:bg-blue-800 text-white font-semibold py-2 px-4 rounded w-1/2">Buscar Salida</button>
+
+        </div>
+    </div>
+    <div>
+        <label for="lote" class="block text-sm font-semibold text-gray-600">Lote</label>
+        <input type="text" id="lote" name="lote" class="w-full border border-gray-300 p-2 rounded">
+      </div>
+      <br>
+      <div class="flex justify-between">
+        <button class="bg-blue-500 hover:bg-blue-800 text-white font-semibold py-2 px-4 rounded w-1/2 mr-2">Buscar Entrada</button>
+        <button class="bg-blue-500 hover:bg-blue-800 text-white font-semibold py-2 px-4 rounded w-1/2">Buscar Salida</button>
+
+        </div>
+
+  </div>
+</body>
+</html>
+
